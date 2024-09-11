@@ -157,7 +157,7 @@ import * as markets from '@bgd-labs/aave-address-book';
 //  const ethers = require('ethers');
 
 // Sample RPC address for querying ETH mainnet
-const provider = new ethers.providers.JsonRpcProvider(
+const provider = new ethers.JsonRpcProvider(
   'https://eth-mainnet.public.blastapi.io',
 );
 
@@ -1848,7 +1848,7 @@ import { BaseDebtToken, ERC20Service } from '@aave/contract-helpers';
 import { ethers } from 'ethers';
 
 // Sample public RPC address for querying polygon mainnet
-const provider = new ethers.providers.JsonRpcProvider(
+const provider = new ethers.JsonRpcProvider(
   'https://polygon-rpc.com',
 );
 
